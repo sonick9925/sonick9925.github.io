@@ -1,0 +1,29 @@
+div{
+    background-color: bisque;
+    width: 300px;
+    padding: 0px;
+    border: 2px solid black;
+}
+.cat{
+    background-color: bisque;
+    width: 300px;
+    float: right;
+    padding: 20px;
+    border: 2px solid black;
+}
+left{
+    border: 4px solid black;
+    padding: 20px;
+    float: left;
+    background-color: bisque;
+ }
+ h1{
+    font-family:Agbalumo,sans-serif ;
+    text-align: center;
+ }
+ p{
+    font-family: Agbalumo, serif;
+ }
+ h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ }
