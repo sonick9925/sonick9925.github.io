@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 70px;
+    text-shadow: 2px 2px 7px darkorchid;
+}
+.content{
+    background-color: rgb(254, 242, 194);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    background-color: rgb(229, 221, 221);
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+}
+img{
+    width: 100%;
+}
+.logo{
+    width: 70px;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.header{
+    display: flex;
+    background-color: rgb(203, 148, 81);
+    justify-content: space-between;
+    padding: 10px;
+}
+.menu a{
+    text-decoration: none;
+    color: rgb(37, 7, 64);
+    margin: 7px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    margin: 0;
+}
+.footer{
+    background-color: rgb(51, 178, 34);
+    padding: 30px;
+    color: black;
+    font-weight: 900;
+
+}
+.socio a{
+    color: rgb(203, 148, 81);
+    /* color: azure; */
+    padding: 30px;
+    font-size: 2em;
+}
+.socio a:hover{
+    color: rgb(203, 81, 81);
+
+}
