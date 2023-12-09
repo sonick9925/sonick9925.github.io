@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    animation-name: cat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes cat{
+    0%{
+     color: chartreuse;
+     transform: translateX(100px);
+    }
+    10%{
+        color: gold;
+    }
+    20%{
+        color: aqua;
+    }
+    30%{
+        color: antiquewhite;
+    }
+    40%{
+        color: green;
+    }
+    50%{
+        color: darkviolet;
+    }
+    60%{
+        color: black;
+    }
+    70%{
+        color: brown;
+    }
+    80%{
+        color: chocolate;
+    }
+    90%{
+        color: plum;
+    }
+    100%{
+    color: rgb(4, 0, 255);
+    transform: translateX(-100px);
+    }
+}
+h1:hover{
+    animation-play-state: paused;
+}
