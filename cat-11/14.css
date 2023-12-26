@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-image: url(fon2.jpg);
+}
+img{
+    width: 100%;
+}
+.im1{
+    width: 50%;
+    box-shadow: 5px 2px 4px blue;
+    border: 6px outset;
+     border-radius: 15px 100px 15px 100px;
+}
+.logo{
+    width: 10%;
+}
+h1{
+ font-family: 'Monofett', monospace;
+font-family: 'Wellfleet', monospace;
+text-align: center;
+font-weight: 800;
+text-shadow: 5px 2px 4px green;
+color: white;
+}
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 5px 2px 4px rgb(255, 251, 11);
+}
+p{
+    font-size: medium;
+    font-weight: 800;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 2px 4px rgba(146, 11, 11, 0.918);
+}
+.card{
+    background-color: rgb(198, 244, 255);
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border: 6px gainsboro solid;
+    box-shadow: 5px 2px 4px lawngreen;
+}
+video{
+    width: 60%;
+    box-shadow: 5px 2px 4px rgb(145, 241, 0) ;
+    border: 6px dotted rgb(68, 233, 255);
+    border-top-left-radius: 25px;
+    border-top-right-radius: 30px;
+    border-right-color: brown;
+    border-left-color:  blue ;
+    border-bottom-color: blueviolet;
+    border-top-color: rgba(255, 0, 0, 0.897);
+    border-bottom-right-radius: 25px;
+    border-radius: 25px;
+}
+figcaption{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    color: rgb(112, 112, 112);
+    text-shadow: 5px 2px 4px rgb(96, 255, 5);
+}
