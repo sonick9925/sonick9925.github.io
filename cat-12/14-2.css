@@ -1,0 +1,61 @@
+h1{
+    text-align: center;
+    font-family:Kablammo,cursive;
+    color: darkblue;
+    font-size:2em;
+    text-shadow:0px 0px 2px rgb(93, 200, 236),0px 0px 5px gold,0px 0px 7px rgb(43, 226, 43) ;
+}
+.top{
+ background-color: rgb(196, 255, 161) ;
+height: 35px;
+}
+.menu-item{
+margin: 3px;
+padding: 10px;
+text-align: center;
+background-color: cyan;
+border-radius: 25px;
+box-shadow: 5px 4px 2px goldenrod;
+border: 6px double green;
+}
+a{
+    font-size: 1.2em;
+    text-decoration:none;
+    color: rgb(249, 252, 57);
+    font-family: Kablammo,cursive;
+}
+a:hover{
+    letter-spacing: 5px;
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+button{
+     width: 200px;
+        text-align: center;
+        background-color: rgb(229, 245, 11);
+        border: 0;
+        border-radius: 25px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        color: rgb(0, 0, 0);
+        font-weight: 900;
+        box-shadow: 0 2px 20px rgb(114, 238, 110);
+        text-shadow: 5px 2px 4px  chocolate;
+        border: 6px dotted red;
+       }
+    .card{
+    background-color: rgb rgb(181, 176, 255);
+    width: 250px;
+    margin: 15px;
+    padding: 15px;
+    border: 6px gainsboro solid;
+    box-shadow: 5px 2px 4px rgb(252, 134, 0);
+     float: none;
+     }
+     img{
+      border-radius: 15px 100px 15px 100px;
+      box-shadow: 5px 2px 4px;
+      border: 6px ridge blue;
+     
+     }
