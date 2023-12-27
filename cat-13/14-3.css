@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-image: url(3r.jpg);
+}
+img{
+    width: 100%;
+}
+.im1{
+    width: 50%;
+    border-radius:  15px 100px 15px 100px;
+    border: 6px double red;
+    border-left-color: blue;
+    box-shadow: 5px 2px 4px gold;
+}
+.im2{
+    border-radius: 25px ;
+    border: 6px inset yellow ;
+    border-left-style: 6px ridge;
+}
+.card{
+        background-color: rgb rgb(238, 238, 238);
+        width: 250px;
+        margin: 15px;
+        padding: 15px;
+        border: 6px rgb(228, 245, 165)groove;
+        box-shadow: 5px 2px 4px rgb(252, 134, 0);
+        border-radius: 25px; 
+        border-top-left-radius: 35px;
+        border-bottom-right-radius: 40%;
+}
+h1{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   color: aliceblue;
+   font-style: italic;
+   font-weight:600;
+   text-shadow: 5px 2px 4px green;
+   text-align: center;
+}
+p{
+    color: rgb(255, 255, 255);
+    text-shadow: 5px 2px 4px blue;
+    font-family:'Glass Antiqua', cursive;
+}
+button{
+    width: 200px;
+    border-radius: 15px 100px 15px 100px;
+    background-color: rgb(229, 255, 0);
+    border: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+    box-shadow: 0 2px 20px rgb(255, 0, 0);
+    text-shadow: 5px 2px 4px  rgb(30, 210, 30);
+}
