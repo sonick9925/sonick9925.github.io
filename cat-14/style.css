@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+}
+img{
+    width: 100%;
+}
+.logo{
+    width: 100px;
+    margin-bottom: 100px;
+}
+.violet{
+    background: linear-gradient(to right bottom, #483d5f, #2a2240);
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 12px;
+}
+.left,.right{
+    width: 300px;
+    flex-grow: 1;
+}
+button{
+    background-color: #ed9619;
+    font-weight: 900;
+    border-radius: 20px;
+    padding: 10px 20px;
+    text-align: center;
+    border: 0;
+    color: white;
+ }
+ @media (max-width: 991px) {  
+    .violet{
+        padding: 60px;
+    }
+    .logo{
+        margin-bottom: 40px;
+    }
+ }
+ @media (max-width: 575px) {
+   .violet{
+        padding: 30px;
+    }
+    .logo{
+        margin-bottom: 20px;
+    }
+ }
+ .card{
+    display: flex;
+    align-items: center;
+   width: 250px;
+   flex-grow: 1;
+   padding: 10px;
+   margin: 5px;
+ }
+ .card-img{
+    padding: 7px;
+ }
+ .card-wrap{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .white{
+    padding: 120px;
+ }
+ @media (max-width: 991px) {  
+    .white{
+        padding: 60px;
+    }
+}
+ @media (max-width: 575px) {
+ .white{
+padding: 30px;
+ }
+ }
+ .gray{
+    padding: 60px;
+    padding-left: 120px;
+    background-color: rgb(173, 168, 168);
+ }
