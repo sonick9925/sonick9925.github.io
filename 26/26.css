@@ -1,0 +1,28 @@
+img{
+    width: 100%;
+}
+.logo-img{
+    width: 80px;
+}
+.nav-link{
+    color: navy;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+h1{
+    text-align: center;
+ 
+}
+.zoom:hover{
+    transform: scale(2);
+}
+.zoom{
+    transition: 0.5s;
+}
+.col-md-5{
+    overflow: hidden;
+}
+
+.footer{
+    background-color: black;
+}
