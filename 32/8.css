@@ -1,20 +1,21 @@
-img.responsive {
-    max-width: 100%;
+img.responsive-photo {
+    width: 100%;
     height: auto;
+    display: block;
+    margin: 0 auto;
 }
-@media only screen and (max-width: 600px) {
-    img.responsive {
-        width: 100%;
+@media (min-width: 768px) {
+    img.responsive-photo {
+        max-width: 100%; 
+        width: auto;  
+        height: auto;   
     }
 }
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    img.responsive {
-        width: 80%;
-    }
-}
-@media only screen and (min-width: 1025px) {
-    img.responsive {
-        width: 60%;
+@media (max-width: 767px) {
+    img.responsive-photo {
+        max-width: 100%; 
+        width: 100%;    
+        height: auto;   
     }
 }
 .logo-img{
