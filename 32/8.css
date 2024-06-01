@@ -1,22 +1,5 @@
-img.responsive-photo {
+img{
     width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-@media (min-width: 768px) {
-    img.responsive-photo {
-        max-width: 100%; 
-        width: auto;  
-        height: auto;   
-    }
-}
-@media (max-width: 767px) {
-    img.responsive-photo {
-        max-width: 100%; 
-        width: 100%;    
-        height: auto;   
-    }
 }
 .logo-img{
  width: 15%;
@@ -43,6 +26,7 @@ img.responsive-photo {
   .gray{
     background-color: lightgray;
     text-align: center;
+    padding-bottom: 50px;
   }
   .yellow{
 
@@ -318,4 +302,5 @@ button:hover {
 }
 .ivory{
   background-color:rgb(254, 254, 207);
+  padding-bottom: 40px;
 }
