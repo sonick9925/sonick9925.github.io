@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт з рецептами</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Сайт з рецептами</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Головна</a></li>
+                <li><a href="#recipes">Рецепти</a></li>
+                <li><a href="#about">Про нас</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Ласкаво просимо!</h2>
+            <p>Знайдіть найкращі рецепти для будь-якої нагоди.</p>
+        </section>
+        <section id="recipes">
+            <h2>Наші рецепти</h2>
+            <article class="recipe">
+                <h3>Борщ</h3>
+                <p>Чудовий український суп, який зігріє вас у холодну пору.</p>
+                <a href="#">Детальніше</a>
+            </article>
+            <article class="recipe">
+                <h3>Вареники</h3>
+                <p>Традиційні українські вареники з різними начинками.</p>
+                <a href="#">Детальніше</a>
+            </article>
+        </section>
+        <section id="about">
+            <h2>Про нас</h2>
+            <p>Ми команда кулінарних ентузіастів, які люблять ділитися рецептами.</p>
+        </section>
+        <section id="contact">
+            <h2>Контакти</h2>
+            <form>
+                <label for="name">Ім'я:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Повідомлення:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Надіслати</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Сайт з рецептами. Всі права захищені.</p>
+    </footer>
+</body>
+</html>
