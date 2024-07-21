@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: relative;
+    text-align: center;
+}
+
+.background-image {
+    background-image: url(books-8067850_1280.webp); /* Замінити на шлях до твоєї картинки */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Розмір фонової картинки */
+    color: #f5e8b2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    background-color: #575757;
+}
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.categories {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.category {
+    display: block;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.category:hover {
+    background-color: #0056b3;
+}
+.zoom:hover{
+    transform: scale(2);
+}
+.zoom{
+    transition: 0.5s;
+}
+.col-md-5{
+    overflow: hidden;
+}
+
+.footer{
+    background-color: black;
+}
+.block{
+    background-color: #f5e8b2;
+    text-shadow: 5px 0px 7px gold;
+}
+label {
+    display: block;
+      margin-bottom: 8px;
+    color: #555;
+    }
+    input, textarea {
+    width: 100%;
+    padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    
+    button {
+    display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #007BFF;
+      color: #fff;
+      border: none;
+    border-radius: 5px;
+    cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    .ivory{
+      background-color:rgb(254, 254, 207);
+      padding-bottom: 40px;
+    }
