@@ -1,0 +1,153 @@
+body{
+    background-color: bisque;
+}
+img{
+    width: 100%;
+}
+.logo-img{
+ width: 15%;
+ margin-left: -100px;
+ box-shadow: 7px 2px 5px rgb(51, 51, 51);
+}
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+    
+  }
+  .navbar a {
+    float: left;
+    display: block;
+    color: #686868;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  .navbar a:hover {
+    background-color: #ddd; 
+    color: black;
+  }
+  h1{ 
+    text-align: center;
+    text-shadow: 5px 2px 7px rgb(62, 62, 62);
+  }
+  .yellow{
+    background-color: rgb(255, 255, 2);
+  }
+  .light-green{
+    background-color: rgb(8, 143, 161);
+    text-align: center;
+  }
+.b{
+    color: aliceblue;
+}
+.light-blue{
+    background-color: rgb(251, 245, 161);
+    text-align: center;
+    background-image: url(m2.png);
+
+}
+.lu{ 
+    text-shadow:5px 2px 7px brown ;
+}
+.t{
+    color: rgb(3, 150, 101);
+}
+.u{
+    text-align: left;
+}
+.m{
+    width: 70%;
+}
+.b{
+    display: inline-block;
+    position: relative;
+    color: #000;
+    font-size: 1.2em;
+}
+.b::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    filter: blur(5px);
+    background: linear-gradient(45deg,rgba(255,0,0,0.7),rgba(0,0,255,0.7),rgba(0,255,0,0.7));
+    animation: shadowShift 3s infinite linear;
+}
+@keyframes shadowShift{
+    0%{
+        transform: translate(0,0);
+    }
+    50%{
+        transform: translate(10px,10px);
+    }
+    100%{
+        transform: translate(0,o);
+    }
+}
+.light-white{
+    background-color: darksalmon;
+
+}
+.o{
+     width: 80%;
+}
+.u:visited{
+    color: rgb(192, 238, 107);
+}
+.light-gray{
+    background-image: url(Електронні\ оболонки\ хімія.jpeg);
+}
+.light-yellou{
+    background-image: url(Designer\ \(1\).jpeg);
+}
+.a2{
+    color: #ddd;
+    text-shadow: 7px 2px 5px rgb(130, 130, 252);
+}
+.a4:visited{
+ color: #ddd;
+}
+
+.a3{
+    color: #ddd;
+    text-decoration: double;
+    text-shadow: 5px 2px 7px bisque;
+}
+.blinking-img{
+    width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    animation: blink 1s infinite;
+}
+@keyframes blink {
+    0% {
+        filter: brightness(100%);
+    }
+    50% {
+        filter: brightness(200%);
+    }
+    100% {
+        filter: brightness(100%);
+    }
+  }
+  .question {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
