@@ -1,0 +1,54 @@
+body {
+    background-color: rgb(128, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.container {
+    background-color: #4e664b;
+    padding: 20px;
+    box-shadow: 5px 7px 2px rgb(75, 98, 41);
+}
+.div-knopky button{
+    width: 49%;
+    padding: 10px;
+    box-shadow: 7px 0px 5px gold;
+    margin: 5px 0;
+    font-size: 2em;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.div-knopky button:hover{
+    font-weight: 900;
+}
+.div-knopky button:focus{
+ color: antiquewhite;
+ background-color: darkolivegreen;
+}
+.inp-1, .inp-2{
+    border: none;
+ padding: 5px 0;
+ font-size: 1.1em;
+}
+.inp-1:focus, .inp-2:focus{
+    outline: none;
+    background-color: rgb(253, 250, 208);
+}
+.btn-clear{
+    width: 99%;
+    font-size: 1.5em;
+    padding: 15px 0;
+    background-color: #ac8cf0;
+    color: #c7eec0;
+}
+.p-1{
+    font-size: 2em;
+    height: 40px;
+    color: rgb(161, 146, 255);
+    padding: 10px;
+    border-bottom: 5px solid gray;
+    box-shadow: 0px 3px 3px rgb(79, 149, 9);
+}
