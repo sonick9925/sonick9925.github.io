@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    <title>Злови пташку</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: rgb(105, 180, 180);
+        }
+
+        .game {
+            background-image: url(cloud.gif);
+            background-size: cover;
+            height: 70vh;
+            position: relative;
+        }
+
+        .bird {
+            width: 70px;
+            position: absolute;
+       
+        }
+
+        .rezault img {
+            width: 70px;
+        }
+
+        .rezault {
+            display: flex;
+            align-items: center;
+            margin-right: 15px;
+        }
+
+        .div-rez {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: "Handjet", sans-serif;
+            font-size: 2em;
+            font-weight: 900;
+        }
+
+        .bird:hover {
+            cursor: url(cursor.png), crosshair;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="game">
+        <img class="bird" src="bird-rez.png" alt="">
+    </div>
+    <div class="div-rez">
+        <div class="rezault">
+            <p>Зловлено</p>
+            <img src="bird-rez.png" alt="">
+            <p>:</p>
+        </div>
+        <div class="div-coins">0</div>
+    </div>
+
+
+    <script>
+        let pole = document.querySelector('.game')
+        let bird = document.querySelector('.bird')
+        let pRez = document.querySelector('.div-coins')
+        let count = 0
+        bird.onclick = function () {
+             count++
+            pRez.innerHTML = count;
+            move()
+        }
+        function move(){
+            let maxLeft,maxTop
+            maxLeft = pole.clientWidth - bird.clientWidth;
+            maxTop = pole.clientHeight - bird.clientHeight;
+            let newLeft = maxTop*Math.random()
+            let newTop = maxTop*Math.random()
+            bird.style.left = newLeft + 'px'
+            bird.style.top = newTop + 'px'
+        }
+       let time = setInterval(() => {
+        move()
+       },1000)
+    </script>
+</body>
+
+</html>
