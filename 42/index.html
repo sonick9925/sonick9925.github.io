@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Danfo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="42.CSS">
+    <title>Paint</title>
+</head>
+<body> 
+    <div class="container">
+        <h1>Paint</h1>
+        <div class="toolbar">
+            <label for="tool">Вибір інструменту:</label>
+            <select id="tool" aria-label="Вибір інструменту">
+                <option value="brush">Пензель</option>
+                <option value="pastel">Пастель</option>
+                <option value="marker">Маркер</option>
+                <option value="watercolor">Водяні фарби</option>
+                <option value="eraser">Ластик</option>
+                <option value="rectangle">Прямокутник</option>
+                <option value="circle">Коло</option>
+                <option value="line">Лінія</option>
+            </select>
+            <label for="size">Розмір:</label>
+            <input type="range" id="size" min="1" max="50" value="5" aria-label="Регулятор розміру">
+            <label for="colorPicker">Вибір кольору:</label>
+            <input type="color" id="colorPicker" value="#000000" aria-label="Вибір кольору">
+            <button id="clear">Очистити</button>
+        </div>
+        <canvas id="drawingCanvas" width="800" height="600"></canvas>
+    </div>
+   <script src="8.js"></script>
+</body>
+</html>
+
+
+
+
+
+    
+</body>
+</html>
