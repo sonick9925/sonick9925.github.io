@@ -1,0 +1,60 @@
+body {
+    font-family: 'Danfo', serif;
+    background-color: #e0f7fa; /* Світлий фон */
+    color: #333; /* Темний текст для контрасту */
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px; /* Закруглені краї */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Тінь для об'єму */
+    background-color: #ffffff; /* Білий фон для контенту */
+}
+
+h1 {
+    font-size: 2.5em; /* Великий заголовок */
+    margin-bottom: 20px;
+    color: #00796b; /* Колір заголовка */
+}
+
+.toolbar {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center; /* Вирівнювання по центру */
+    gap: 10px; /* Відстань між елементами */
+}
+
+select, input[type="color"], input[type="range"], button {
+    padding: 10px; /* Внутрішній відступ */
+    border: 2px solid #00796b; /* Тінь для елементів */
+    border-radius: 5px; /* Закруглені краї */
+    font-size: 1em; /* Розмір шрифту */
+    background-color: #ffffff; /* Білий фон для елементів */
+    transition: border-color 0.3s; /* Анімація кольору */
+}
+
+select:hover, input[type="color"]:hover, input[type="range"]:hover, button:hover {
+    border-color: #004d40; /* Темніший колір при наведенні */
+}
+
+button {
+    background-color: #00796b; /* Основний колір кнопки */
+    color: white; /* Білий текст на кнопці */
+    cursor: pointer; /* Зміна курсору на "вказівник" */
+}
+
+button:hover {
+    background-color: #004d40; /* Темніший колір кнопки при наведенні */
+}
+
+canvas {
+    border: 1px solid #00796b; /* Тінь для полотна */
+    border-radius: 5px; /* Закруглені краї */
+    background-color: #ffffff; /* Білий фон для полотна */
+    cursor: url('https://cdn-icons-png.flaticon.com/512/1143/1143730.png'), auto; /* Курсор у вигляді лупи */
+}
