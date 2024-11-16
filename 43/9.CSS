@@ -1,0 +1,125 @@
+img{
+    width: 100%;
+}
+.navbar{
+    background-color: #1C1814;
+}
+.navbar-collapse{
+    flex-grow: 0;
+}
+.nav-link{
+    color: #c99e71;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+header{
+    background-image: url(top-img.jpg);
+    height: 90vh;
+    background-size:cover ;
+    background-position: 70% 70%;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+}
+.btn-taste{
+    background-color: #c99e71;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+}
+.header p{
+    font-family: "Raleway", sans-serif;
+}
+h1{
+    font-family: "Comfortaa", sans-serif;
+
+}
+body{
+    background-color: #14110E;
+    color: white;
+}
+.coffe-card{
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.card-text{
+    background-color:rgba(42, 45, 48, 0.812) ;
+    padding: 7px;
+    top: 40%;
+    left: 0;
+    position: absolute;
+    transform: translateX(-100%);
+    transition: 0.5s;
+}
+.coffe-card:hover .card-text{
+    transform: translateX(0);
+}
+.number{
+    color: #c99e71;
+    margin-right:7px ;
+    font-weight: 900;
+}
+.history-text{
+background-color: #1C1814;
+height: 100%;
+padding: 70px 30px;
+font-family:  "Comfortaa", sans-serif;
+}
+.orange-text{
+    color: #c99e71;
+    font-family: "Edu AU VIC WA NT Pre", cursive;
+}
+.drink-coffee{
+    position: relative;
+    margin: 7px;
+    overflow: hidden
+}
+.hide-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #3b3b3bdb;
+    height: 100%;
+    padding: 5px;
+    transform: translateY(100%);
+    overflow-y:auto ;
+    transition: 0.5s  ;
+  
+}
+.btn-drink{
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 100%;
+    background-color: #c99e71;
+    color: aliceblue;
+    padding: 10px 20px;
+    border-radius: 0;
+    font-variant: small-caps;
+    font-weight: 700;
+    font-family: "Play", sans-serif;
+}
+.hide-title{
+    color: orange;
+    border-bottom: 1px solid #c99e71;
+    font-family:"Edu AU VIC WA NT Pre", cursive ;
+    text-align: center;
+    font-weight: 900;
+}
+.gif{
+    background-color: #ddd;
+    padding: 70px 0;
+}
+.more-text{
+    display: none;
+}
+.read-more-btn, .read-min-btn{
+    text-decoration: underline;
+    color: #c99e71;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
