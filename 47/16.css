@@ -3,6 +3,7 @@
     justify-content: space-around;
 padding: 20px;
 border-top: 2px double rgb(58, 2, 58);
+    flex-wrap:wrap;
 }
 .left,.right{
 width: 300px;
