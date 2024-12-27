@@ -68,7 +68,7 @@ function Holiday(sel, p1, p2,p3,p4,p5,p6,p7) {
         if (sel.value == phones[i].name){
             document.querySelector(p1).innerHTML = phones[i].normalname
             document.querySelector(p2).innerHTML = phones[i].ekran
-            document.querySelector(p3).innerHTML = phones[i].ekran2
+            document.querySelector(p3).innerHTML = phones[i].display
             document.querySelector(p4).innerHTML = phones[i].security
             document.querySelector(p5).innerHTML = phones[i].procesor
             document.querySelector(p6).innerHTML = phones[i].memory
