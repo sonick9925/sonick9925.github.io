@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+padding: 20px;
+border-top: 2px double rgb(58, 2, 58);
+}
+.left,.right{
+width: 300px;
+flex-grow: 1;
+padding: 20px;
+box-shadow: 0px 0px 7px rgb(111, 109, 109);
+margin: 10px;
+}
+select{
+    background-color: rgb(201, 201, 201);
+    padding: 7px;
+    border: none;
+    box-shadow: 2px 3px 7px rgb(78, 1, 78);
+    font-size: 1.2em;
+}
+select:focus{
+    background-color: rgb(111, 109, 109);
+    color: aliceblue;
+    outline: none;
+}
+h1,h2{
+    text-align: center;
+}
+body{
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
