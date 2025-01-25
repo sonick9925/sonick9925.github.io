@@ -1,0 +1,24 @@
+.oclock{
+    margin: 0;
+    padding: 100px 0;
+    text-align: center;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url(img/day2.jpg);
+}
+.p-hour{
+    font-size: 4em;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow: 0px 0px 5px white;
+}
+.p-day{
+    font-size: 4em;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(21, 21, 81);
+    
+}
+body{
+    margin: 0;
+}
