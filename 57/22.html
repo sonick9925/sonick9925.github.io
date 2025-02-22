@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="22.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Автомобілі</h1>
+    <div id="vue-cont">
+        <div class="menu-wrap">
+            <ul class="menu">
+                <li class="menu-item" v-for="(item,i) in cars" v-on:click="clickCar(i)" v-bind:class="{ active:num == i}">
+                    {{item.name}} - {{item.name}}
+                </li>
+            </ul>
+        </div>
+        <div class="about-car">
+            <div class="car-img">
+                <img v-bind:src="oneCar.Image" alt="">
+            </div>
+            <div class="car-info">
+                <p>Марка:{{oneCar.name}}</p>
+                <p>Модель:{{oneCar.model}}</p>
+                <p>Рік:{{oneCar.year}}</p>
+                <p>Ціна:{{oneCar.price}}</p>
+                <p>Колір:{{oneCar.color}}</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="22.js"></script>
+</body>
+
+</html>
