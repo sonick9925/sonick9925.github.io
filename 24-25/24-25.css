@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    background-color: rgb(176, 172, 166);
+}
+.content{
+    background-color: rgb(186, 186, 249);
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 4px 4px rgb(237, 213, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 80%;
+    box-sizing: border-box;
+    border-radius: 20px;
+
+}
+.list-note{
+    list-style-type: none;
+padding-left: 0px;
+}
+.item-note{
+    
+    font-size: 1em;
+    border-bottom: 1px #BDF8F2;
+    padding: 7px;
+    margin-bottom: 15px;
+
+}
+.inp-note{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 1.5em;
+    box-shadow: 0px 0px 2px 2px rgb(255, 218, 218);
+    border-radius: 10px;
+    border: none;
+}
+.inp-note:focus{
+    outline: none;
+    box-shadow:  0px 0px 4px 4px blanchedalmond;
+}
+.inp-note:focus::placeholder{
+    font-size: 900;
+}
+.add-btn{
+    border-radius: 10px;
+    font-size: 900;
+    box-shadow:  0px 0px 2px 2px rgb(196, 255, 235);
+}
+[v-cloak]{
+    display: none;
+}
+.item-note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-del{
+    padding: 10px;
+    border: none;
+    color: rgb(165, 6, 6);
+    background-color: rgb(45, 6, 6);
+    font-weight: 900;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgb(107, 9, 9);
+}
+.add-btn{
+    padding: 10px;
+    border: none;
+    color: greenyellow;
+    background-color: rgb(64, 64, 64);
+    font-weight: 900;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px greenyellow;
+}
+.add-btn:disabled{
+    background-color: rgb(153, 145, 145);
+    box-shadow: 2px 2px 4px rgb(79, 79, 79);
+    color: black;
+}
