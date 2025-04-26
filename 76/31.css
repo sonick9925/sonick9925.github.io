@@ -1,0 +1,73 @@
+img{
+    width: 100%;
+}
+.img-map{
+    width: 80px;
+}
+.p-map{
+    border-bottom: 1px solid red;
+    margin: 0 10px;
+}
+.first .row{
+    align-items: center;
+}
+.first{
+    background-color: #f9f9f9;
+}
+.green{
+    color: red;
+}
+.second{
+    background: url(img/ford-fusion-2017.png), gray;
+    color: #f9f9f9;
+    background-size: cover;
+    background-position: 50% 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card-1{
+    background-color: white;
+    padding: 15px;
+    color: black;
+    margin: 15px;
+    text-align: center;
+}
+.card-1 h4{
+    color: red;
+}
+.col-md-4{
+    padding: 15px;
+    
+}
+.card-2{
+    border: 1px solid red;
+    padding: 50px;
+    padding-top: 100px;
+    background-repeat: no-repeat;
+
+}
+.card21{
+    background-image: url(img/1.png);
+}
+.card22{
+    background-image: url(img/2.png);
+}
+.card23{
+    background-image: url(img/3.png);
+}
+.third{
+    background-color: #f9f9f9;
+    padding: 70px;
+    padding-bottom: 70px;
+}
+.card-3{
+    box-shadow: 0px 0px 10px 5px gray;
+}
+.mark{
+    width: 50px;
+    background-color: transparent;
+    border: 1px solid red;
+    margin: auto;
+    transform: translateY(-100%);
+    padding: 10px;
+}
