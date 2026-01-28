@@ -1,0 +1,35 @@
+body{
+    background-color: antiquewhite;
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    width: 300px;
+    background-color: #faefe4;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    box-shadow: 5px 2px 7px gold;
+}
+
+.card-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card-content {
+    padding: 16px;
+}
+
+.card-title {
+    margin: 0 0 10px;
+    font-size: 20px;
+}
+
+.card-text {
+    margin: 0;
+    font-size: 16px;
+    color: #433f3f;
+}
