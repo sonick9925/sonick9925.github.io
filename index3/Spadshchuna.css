@@ -1,0 +1,11 @@
+body{
+    background-color: antiquewhite;
+}
+audio{
+    background-color: beige;
+    border-radius: 15px 100px 15px 100px;
+    box-shadow: 2px 7px 5px floralwhite
+}
+h1{
+    text-align: center;
+}
